@@ -1,7 +1,7 @@
 # Defect Segmentation on MVTec AD (Metal Nut)
 
 This project focuses on **computer vision for defect detection**, specifically **segmentation of defects** in industrial components.  
-We use the **MVTec Anomaly Detection (AD)** dataset with experiments on the **Metal Nut** category.  
+I use the **MVTec Anomaly Detection (AD)** dataset with experiments on the **Metal Nut** category.  
 
 The approach leverages **feature embeddings from ResNet50** and a **memory-augmented segmentation network** to identify and localize defects.
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-We use the **metal_nut** subset of MVTec AD.  
+I use the **metal_nut** subset of MVTec AD.  
 The dataset consists of:  
 - **Train**: only good (defect-free) samples  
 - **Test**: mixture of good and defective samples  
@@ -82,7 +82,7 @@ Training pipeline includes:
 
 ## Results
 
-The model achieves competitive **Dice scores** on the test set, successfully localizing scratches, cracks, and other defects on metal nuts.  
+The model successfully localizes scratches, cracks, and other defects on metal nuts.  
 
 Visualizations include:
 - Ground truth vs. predicted masks  

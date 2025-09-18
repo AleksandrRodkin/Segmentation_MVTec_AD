@@ -1,3 +1,12 @@
 torch==2.8.0+cu129
 torchvision==0.23.0+cu129
 --extra-index-url https://download.pytorch.org/whl/cu129
+
+matplotlib==3.10.6
+tqdm==4.67.1
+pillow==11.3.0
+ipython==9.5.0
+numpy==2.3.3
+scipy==1.16.2
+scikit-image==0.25.2
+requests==2.32.5
